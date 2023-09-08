@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-// import VueJsx from './VueJsx.vue'
+import VueJsx from './VueJsx.vue'
 // import VueCommon from './VueCommon.vue'
 import ScrollIntoView from './ScrollIntoView.vue'
 
@@ -11,7 +11,7 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
-  <!-- <VueJsx :msg="msg"/> -->
+  <VueJsx :msg="msg"/>
   <!-- <VueCommon /> -->
   <ScrollIntoView />
   <div class="card">
